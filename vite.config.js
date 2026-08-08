@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: './', // Ensures relative asset paths work on custom domains & GitHub Pages
   server: {
     port: 3000,
     host: true
